@@ -1,0 +1,63 @@
+2020-10-20 00:46:38,892 WARN  [SoapUI] Missing folder [C:\Git\IBMSDET\SOAP UI\project\MavenIntegration\Rest\my-rest\ext] for external libraries
+2020-10-20 00:46:40,951 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\abhin\soapui-settings.xml]
+2020-10-20 00:46:43,703 INFO  [WsdlProject] Loaded project from [file:/C:/Git/IBMSDET/SOAP%20UI/project/MavenIntegration/Rest/my-rest/REST-Project-soapui-project_latest.xml]
+2020-10-20 00:46:45,102 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [REST Project]
+2020-10-20 00:46:45,105 INFO  [SoapUITestCaseRunner] Running Project [REST Project], runType = SEQUENTIAL
+2020-10-20 00:46:45,141 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 1]
+2020-10-20 00:46:45,202 INFO  [SoapUITestCaseRunner] running step [getAccessToken]
+2020-10-20 00:46:48,022 INFO  [log] Pass
+2020-10-20 00:46:48,045 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-10-20 00:46:48,046 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-10-20 00:46:48,049 INFO  [SoapUITestCaseRunner] running step [StoreAccessTokenAtTestSuite]
+2020-10-20 00:46:48,093 INFO  [log] d736b45d0bc7b07f8f728c8bde8674eb87ead0cd
+2020-10-20 00:46:48,136 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 1], time taken: 1501ms, status: FINISHED
+2020-10-20 00:46:48,143 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 2]
+2020-10-20 00:46:48,145 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-10-20 00:46:48,699 INFO  [log] Pass
+2020-10-20 00:46:48,700 INFO  [log] Pass
+2020-10-20 00:46:48,704 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-10-20 00:46:48,705 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-10-20 00:46:48,705 INFO  [SoapUITestCaseRunner] running step [GetUser]
+2020-10-20 00:46:49,146 INFO  [log] Pass
+2020-10-20 00:46:49,148 INFO  [log] Pass
+2020-10-20 00:46:49,150 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-10-20 00:46:49,151 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-10-20 00:46:49,152 INFO  [SoapUITestCaseRunner] running step [Logout]
+2020-10-20 00:46:49,625 INFO  [log] Pass
+2020-10-20 00:46:49,626 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-10-20 00:46:49,626 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-10-20 00:46:49,627 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 2], time taken: 1302ms, status: FINISHED
+2020-10-20 00:46:49,630 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 27]
+2020-10-20 00:46:49,630 INFO  [SoapUITestCaseRunner] running step [Login]
+2020-10-20 00:46:51,082 INFO  [log] Pass
+2020-10-20 00:46:51,084 INFO  [log] Pass
+2020-10-20 00:46:51,086 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-10-20 00:46:51,088 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-10-20 00:46:51,094 INFO  [SoapUITestCaseRunner] running step [AddProduct1]
+2020-10-20 00:46:51,513 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-10-20 00:46:51,514 INFO  [SoapUITestCaseRunner] running step [ToGetCategoryID_Parent]
+2020-10-20 00:46:51,574 INFO  [log] 1934
+2020-10-20 00:46:51,577 INFO  [SoapUITestCaseRunner] running step [AddProductSubcategories]
+2020-10-20 00:46:52,032 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-10-20 00:46:52,033 INFO  [SoapUITestCaseRunner] running step [ToGetCategoryID_subcategory_id]
+2020-10-20 00:46:52,074 INFO  [log] 1935
+2020-10-20 00:46:52,076 INFO  [SoapUITestCaseRunner] running step [AddNewProduct]
+2020-10-20 00:46:52,512 INFO  [log] Pass
+2020-10-20 00:46:52,513 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-10-20 00:46:52,515 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-10-20 00:46:52,517 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 27], time taken: 2728ms, status: FINISHED
+2020-10-20 00:46:52,519 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TestCase 28]
+2020-10-20 00:46:52,520 INFO  [SoapUITestCaseRunner] running step [CreateRandomEmailID]
+2020-10-20 00:46:52,585 INFO  [SoapUITestCaseRunner] running step [CreateCustomer]
+2020-10-20 00:46:53,005 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-10-20 00:46:53,006 INFO  [SoapUITestCaseRunner] running step [Fetch_customer_id]
+2020-10-20 00:46:53,041 INFO  [log] 2202
+2020-10-20 00:46:53,044 INFO  [SoapUITestCaseRunner] running step [CreateProduct]
+2020-10-20 00:46:53,445 INFO  [SoapUITestCaseRunner] Assertion [Valid HTTP Status Codes] has status VALID
+2020-10-20 00:46:53,446 INFO  [SoapUITestCaseRunner] running step [Fetch_product_id]
+2020-10-20 00:46:53,475 INFO  [log] 3091
+2020-10-20 00:46:53,480 INFO  [SoapUITestCaseRunner] running step [OrderAdmin]
+2020-10-20 00:46:54,601 INFO  [log] Pass
+2020-10-20 00:46:54,601 INFO  [SoapUITestCaseRunner] Assertion [Script Assertion] has status VALID
+2020-10-20 00:46:54,602 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TestCase 28], time taken: 2028ms, status: FINISHED
+2020-10-20 00:46:54,604 INFO  [SoapUITestCaseRunner] Project [REST Project] finished with status [FINISHED] in 9492ms
